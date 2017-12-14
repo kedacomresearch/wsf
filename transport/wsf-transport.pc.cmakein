@@ -1,0 +1,13 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}/bin
+libdir=${prefix}/lib
+sharedlibdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: wsf-transport
+Description: Lib for Web Service Framework Transport Layer
+Version: @VERSION@
+Requires: libevent, libwebsockets, libuv
+
+Libs: -L${libdir} -L${sharedlibdir} -lwsf-transport 
+Cflags: -I${includedir} 

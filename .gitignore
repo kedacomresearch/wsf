@@ -1,0 +1,7 @@
+cerbero-build-dir/*
+CMakeFiles/*
+.vscode/*
+*pyc
+*/node_modules/*
+build*
+/webrtc/apidoc
